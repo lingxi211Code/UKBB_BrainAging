@@ -1,0 +1,23 @@
+model:
+  - drop_out_ratio: 0.5
+  - distribution: False
+  - corr: False
+  
+train:
+  - epochs: 130
+  - batch_size: 56
+  - lr: 1e-3
+  - device_ids: [0, 1, 2]
+  - lr_decay_priod: 30
+  - lr_decay_gamma: 0.3
+  - l2_weight_decay: 0.001
+  
+data:
+  - data_path: "Your PATH"
+  - augmentation: False
+
+    
+
+
+
+
